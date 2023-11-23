@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="name" placeholder="type your name">
+    <p id="result"></p>
+    <button onclick="sum()">calucate</button>
+
+    <script>
+      
+       
+        function sayHello(){
+            
+            var name = document.getElementById('name').value;
+            console.log(name);
+            alert(`hello ${name}`)
+        }
+        const sum = ()=>{
+            var num1 = parseInt( window.prompt('enter your 1st number'))
+            var num2 = parseInt(window.prompt('enter your 2nd number'));
+           var result = document.getElementById('result');
+           result.innerHTML = num1 + num2
+           return num1 + num2
+        }
+
+    </script>
+</body>
+</html>

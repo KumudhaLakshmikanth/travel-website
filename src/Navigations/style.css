@@ -1,0 +1,13 @@
+.my-nav{
+    background-color: black;
+}
+
+.dropdown-item:hover{
+    background-color: black !important;
+
+}
+
+.search-bar:focus{
+    box-shadow: none;
+
+}
